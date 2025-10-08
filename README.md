@@ -15,8 +15,7 @@ The goal of this project is to analyze the financial health and provider perform
 - How do visits and revenue trend over time (monthly/quarterly/yearly)?
 
 ## What I did
-1. Data cleaning & shaping (Power Query) 
-   - Normalized date/time → date only, filled missing dates (Fill Down).  
+1. Data cleaning & shaping (Power Query)   
    - Created calendar fields: `Weekday`, `IsWeekend`, `Quarter`, `Month`, `Year`.  
    - Split/normalized tables: Visits, Providers, Departments, Procedures, Diagnoses, Billing components (Insurance, Out-of-Pocket).  
 2. Data model  
