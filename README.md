@@ -31,7 +31,8 @@ The goal of this project is to analyze the financial health and provider perform
 - Provider-level variation: some high-revenue providers also have high ratings
 
 ### Dashboard
-[Healthcare Dashboard.pdf](https://github.com/user-attachments/files/22762279/Healthcare.Dashboard.pdf)
+`<img width="584" height="323" alt="Screenshot 2026-10-09 085101" src="https://github.com/user-attachments/assets/6477a5bc-d7ff-4116-a86e-b78dc4f50489" />
+<img width="581" height="323" alt="Screenshot 2026-10-09 085026" src="https://github.com/user-attachments/assets/9408d79c-4230-4d14-9403-404077593153" />
 
 ### Conclusion
 This Power BI project demonstrates how data visualization can uncover meaningful insights in healthcare management. By analyzing financial records and provider performance, the dashboard provides a clear view of the clinic’s operational health — from revenue streams and treatment costs to provider efficiency and patient trends.
