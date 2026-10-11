@@ -25,6 +25,72 @@ The goal of this project is to analyze the financial health and provider perform
    - Page 1 — Financial Overview: KPI cards, trend charts (monthly revenue), revenue by procedure/department, map of patient locations, cost breakdown.  
    - Page 2 — Provider Insights: provider ranking by revenue, avg rating, visits, avg treatment cost, length-of-stay distribution and provider detail drillthrough.  
 
+---
+
+## Key Business & Epidemiological Questions Answered
+
+### 1. Revenue Sources (Procedures, Departments, Diagnoses)
+
+* **By Diagnostic Procedure:**
+  * **X-Ray:** £1,053,529 (31.4% of procedure billing | 1,537 visits)
+  * **CT Scan:** £805,508 (24.0% | 1,233 visits)
+  * **MRI Scan:** £600,739 (17.9% | 912 visits)
+  * **Ultrasound:** £481,347 (14.3% | 720 visits)
+  * **Blood Test:** £414,952 (12.4% | 598 visits)
+
+* **By Clinical Department:**
+  * **Cardiology:** £846,925 (25.2% of total revenue | 1,281 visits)
+  * **Orthopedics:** £813,253 (24.2% | 1,179 visits)
+  * **General Surgery:** £783,247 (23.3% | 1,185 visits)
+  * **Neurology:** £478,200 (14.2% | 697 visits)
+  * **Pediatrics:** £434,450 (12.9% | 658 visits)
+
+* **By Clinical Diagnosis:**
+  * **Hypertension:** £1,328,213 (39.6% | 2,013 visits) — primary driver of revenue and clinical patient volume.
+  * **Appendicitis:** £661,518 (19.7% | 994 visits)
+  * **Asthma:** £629,505 (18.8% | 918 visits)
+  * **Fracture:** £411,420 (12.3% | 606 visits)
+  * **Migraine:** £325,419 (9.7% | 469 visits)
+
+---
+
+### 2. Operational Cost Drivers & Financial Protection Dynamics
+
+| Component | Total Billed (£) | % of Total | Average per Visit (£) | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Treatment Cost** | £2,630,406 | 78.4% | £526.08 | Direct clinical, surgical, and procedural charges |
+| **Medication Cost** | £546,039 | 16.3% | £109.21 | Inpatient and outpatient pharmacotherapy regimens |
+| **Room Charges** | £179,630 | 5.4% | £35.93 | Inpatient accommodations (mean LOS: 4.87 days)|
+
+#### Financial Protection & Patient Liabilities
+* **Third-Party Insurance Coverage:** £2,225,924 (66.3% aggregate reimbursement | £445.18 mean coverage/visit).
+* **Patient Out-of-Pocket (OOP) Burden:** £1,059,267 (31.6% net direct patient responsibility | £211.85 mean cost/visit)
+* **Key Finding:** Unreimbursed out-of-pocket costs represent nearly one-third of overall healthcare expenditure, indicating high vulnerability to catastrophic health spending among uninsured/underinsured groups.
+
+---
+
+### 3. Provider Quality-to-Cost Performance
+
+Encounters were evenly distributed across attending clinicians (~1,000 visits and ~£670,000 billing per clinician):
+
+* **Dr. Olu Abisola:** Highest overall patient satisfaction (**5.58 / 10** across 1,012 visits), generating £675,815 (£667.80 mean billing per encounter).
+* **Dr. Johnson Grek:** Second-highest patient satisfaction (**5.19 / 10** across 997 visits) while maintaining the most cost-efficient treatment profile (£667.61/encounter).
+* **Dr. Sade Kikiola:** Lowest patient satisfaction rating (**2.92 / 10** across 988 visits), highlighting a priority target for clinical quality improvement interventions.
+
+---
+
+### 4. Service Volume Trajectories & Temporal Trends
+
+* **Care Setting Breakdown:**
+  * **Outpatient:** 50.4% (2,520 visits)
+  * **Inpatient:** 24.9% (1,245 admissions)
+  * **Emergency:** 24.7% (1,235 encounters)
+
+* **Seasonal Trajectory:**
+  * Outpatient service demand exhibits strong seasonality, peaking in **March through June** (surpassing 90+ visits/month).
+  * Volume drops significantly during the mid-year period (July–August) before undergoing a steady autumn recovery.
+
+
  ### Key insights (examples from analysis)
 - Procedures like X-Ray and CT contribute a large share of billing (top 2–3 procedures). 
 - Medication contributes significantly to per-visit cost — useful target for cost-management. 
